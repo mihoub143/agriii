@@ -1,0 +1,178 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#fafafa;
+}
+
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#e65100;
+color:white;
+}
+
+nav a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffca28;
+}
+
+
+/* DASHBOARD */
+
+#dashboard{
+padding:50px;
+text-align:center;
+}
+
+.dashboard{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+width:250px;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:70px;
+margin-bottom:10px;
+}
+
+.card h3{
+color:#e65100;
+margin-bottom:10px;
+}
+
+.card button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:#e65100;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.card button:hover{
+background:#bf360c;
+}
+
+
+/* TABLE */
+
+#mesoffres{
+padding:50px;
+}
+
+.table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+}
+
+.table th,
+.table td{
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+
+.table th{
+background:#e65100;
+color:white;
+}
+
+
+/* BUTTONS */
+
+.btn{
+padding:7px 12px;
+border:none;
+background:#e65100;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.delete{
+background:#e53935;
+}
+
+.delete:hover{
+background:#c62828;
+}
+
+
+/* PROFIL */
+
+#profil{
+padding:50px;
+text-align:center;
+}
+
+.profile-container{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:40px;
+margin-top:20px;
+}
+
+.profile-container img{
+width:120px;
+border-radius:50%;
+}
+
+.form{
+display:flex;
+flex-direction:column;
+gap:10px;
+width:300px;
+}
+
+.form input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.form button{
+padding:10px;
+background:#e65100;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.form button:hover{
+background:#bf360c;
+}

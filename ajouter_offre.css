@@ -1,0 +1,116 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+height:100vh;
+background:linear-gradient(120deg,#e65100,#ffb74d);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+/* CONTAINER */
+
+.container{
+width:1000px;
+background:white;
+border-radius:15px;
+display:flex;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+
+/* LEFT */
+
+.left{
+width:45%;
+background:#fff3e0;
+padding:40px;
+text-align:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.left h1{
+color:#e65100;
+margin-bottom:20px;
+}
+
+.left p{
+font-size:14px;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+.left img{
+width:100%;
+border-radius:10px;
+}
+
+
+/* RIGHT */
+
+.right{
+width:55%;
+padding:40px;
+display:flex;
+align-items:center;
+}
+
+
+/* FORM */
+
+.form{
+width:100%;
+}
+
+.form h2{
+text-align:center;
+margin-bottom:20px;
+color:#e65100;
+}
+
+.form input,
+.form select{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:8px;
+border:1px solid #ccc;
+outline:none;
+}
+
+.form input:focus,
+.form select:focus{
+border-color:#e65100;
+}
+
+.form label{
+margin-top:10px;
+display:block;
+font-weight:bold;
+}
+
+.form button{
+width:100%;
+padding:12px;
+margin-top:20px;
+background:#e65100;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.form button:hover{
+background:#bf360c;
+}
